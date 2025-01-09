@@ -19,7 +19,7 @@
 7. Resto da Divisão: 5 % 2 = 1
 
 ### Ordem de Precedência:
-1. Parênteses: ()
-2. Potência: **
-3. Multiplição: , Divisão: /, Divisão Inteira: //, Resto da Divisão: %
-4. Adição: +, Subtração: -
+1. ( )
+2. **
+3. *, /, //, %
+4. +, -
