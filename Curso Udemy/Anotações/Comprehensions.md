@@ -33,6 +33,16 @@ print(quadrados)
 [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 ```
 
+### **Sem List Comprehension e Condição:**
+
+```python
+pares = []
+for x in range(10):
+    if x % 2 == 0:
+        pares.append(x)
+print(pares)
+```
+
 ### **Com List Comprehension e Condição:**
 
 ```python
@@ -75,6 +85,16 @@ print(quadrados_dict)
 {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 ```
 
+### **Sem Dictionary Comprehension e Condição:**
+
+```python
+impares_dict = {}
+for x in range(10):
+    if x % 2 != 0:
+        impares_dict[x] = x ** 2
+print(impares_dict)
+```
+
 ### **Com Dictionary Comprehension e Condição:**
 
 ```python
@@ -115,6 +135,16 @@ print(quadrados_set)
 
 ```
 {0, 1, 4, 9, 16, 25, 36, 49, 64, 81}
+```
+
+### **Sem Set Comprehension e Condição:**
+
+```python
+multiplos_de_3 = set()
+for x in range(20):
+    if x % 3 == 0:
+        multiplos_de_3.add(x)
+print(multiplos_de_3)
 ```
 
 ### **Com Set Comprehension e Condição:**
