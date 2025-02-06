@@ -16,13 +16,14 @@ A **List Comprehension** é uma maneira compacta de criar listas a partir de ite
 # Criando uma lista com os quadrados de 0 a 9
 quadrados = []
 for x in range(10):
-    quadrados.append(x ** 2)
+    quadrados.append(x ** 2)  # Adiciona o quadrado de x à lista
 print(quadrados)
 ```
 
 ### **Com List Comprehension:**
 
 ```python
+# Criando uma lista com os quadrados de 0 a 9 usando List Comprehension
 quadrados = [x ** 2 for x in range(10)]
 print(quadrados)
 ```
@@ -36,6 +37,7 @@ print(quadrados)
 ### **Sem List Comprehension e Condição:**
 
 ```python
+# Criando uma lista apenas com os números pares de 0 a 9
 pares = []
 for x in range(10):
     if x % 2 == 0:
@@ -47,7 +49,7 @@ print(pares)
 
 ```python
 # Criando uma lista apenas com os números pares de 0 a 9
-pares = [x for x in range(10) if x % 2 == 0]
+pares = [x for x in range(10) if x % 2 == 0]  # Filtra apenas os números pares
 print(pares)
 ```
 
@@ -66,6 +68,7 @@ A **Dictionary Comprehension** permite criar dicionários de forma mais simples 
 ### **Sem Dictionary Comprehension:**
 
 ```python
+# Criando um dicionário onde a chave é um número e o valor é seu quadrado
 quadrados_dict = {}
 for x in range(5):
     quadrados_dict[x] = x ** 2
@@ -75,6 +78,7 @@ print(quadrados_dict)
 ### **Com Dictionary Comprehension:**
 
 ```python
+# Criando um dicionário usando Dictionary Comprehension
 quadrados_dict = {x: x ** 2 for x in range(5)}
 print(quadrados_dict)
 ```
@@ -88,6 +92,7 @@ print(quadrados_dict)
 ### **Sem Dictionary Comprehension e Condição:**
 
 ```python
+# Criando um dicionário apenas com números ímpares e seus quadrados
 impares_dict = {}
 for x in range(10):
     if x % 2 != 0:
@@ -98,7 +103,7 @@ print(impares_dict)
 ### **Com Dictionary Comprehension e Condição:**
 
 ```python
-# Criando um dicionário apenas com números ímpares
+# Criando um dicionário apenas com números ímpares e seus quadrados
 impares_dict = {x: x ** 2 for x in range(10) if x % 2 != 0}
 print(impares_dict)
 ```
@@ -118,6 +123,7 @@ A **Set Comprehension** é usada para criar conjuntos de maneira eficiente.
 ### **Sem Set Comprehension:**
 
 ```python
+# Criando um conjunto com os quadrados de 0 a 9
 quadrados_set = set()
 for x in range(10):
     quadrados_set.add(x ** 2)
@@ -127,6 +133,7 @@ print(quadrados_set)
 ### **Com Set Comprehension:**
 
 ```python
+# Criando um conjunto com os quadrados de 0 a 9 usando Set Comprehension
 quadrados_set = {x ** 2 for x in range(10)}
 print(quadrados_set)
 ```
@@ -140,6 +147,7 @@ print(quadrados_set)
 ### **Sem Set Comprehension e Condição:**
 
 ```python
+# Criando um conjunto apenas com números múltiplos de 3
 multiplos_de_3 = set()
 for x in range(20):
     if x % 3 == 0:
@@ -170,9 +178,10 @@ A **Generator Comprehension** funciona de maneira semelhante à List Comprehensi
 ### **Sem Generator Comprehension:**
 
 ```python
+# Criando um gerador de quadrados de 0 a 9 sem Generator Comprehension
 def gerar_quadrados():
     for x in range(10):
-        yield x ** 2
+        yield x ** 2  # Usando yield para gerar os valores
 quadrados_gen = gerar_quadrados()
 print(list(quadrados_gen))
 ```
@@ -180,6 +189,7 @@ print(list(quadrados_gen))
 ### **Com Generator Comprehension:**
 
 ```python
+# Criando um gerador de quadrados de 0 a 9 usando Generator Comprehension
 quadrados_gen = (x ** 2 for x in range(10))
 print(list(quadrados_gen))
 ```
