@@ -1,1 +1,3 @@
-Eu estou estudando Python
+Escrever dados em arquivos é muito fácil
+Podemos colocar quantas linhas quisermos
+Está é a ultima linha
