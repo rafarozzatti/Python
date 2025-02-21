@@ -34,7 +34,7 @@ class Pessoa:
     def imprimir(self) -> None:
         print(f'Nome: {self.nome}')
         print(f'E-mail: {self.email}')
-        print(f'Data Nascimento: {self.data_nascimento.strftime('%d/%m/%y')}')
+        print(f'Data Nascimento: {self.data_nascimento.strftime("%d/%m/%y")}')
 
 p1 = Pessoa('Rafael', date(year=1999, month=2, day=17), 'user@gmail.com')
 p1.imprimir()
