@@ -1,0 +1,3 @@
+linguagens = ('python', 'js', 'java', 'csharp',)
+
+print(len(linguagens))
