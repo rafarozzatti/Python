@@ -1,19 +1,3 @@
-Verdade, eu juntei vários conceitos em um só nome! Aqui estão os cursos **exatos** da DIO que cobrem esses conteúdos:  
-
-✅ **Manipulando Strings com Python**  
-✅ **Trabalhando com Listas em Python**  
-✅ **Conhecendo Tuplas em Python**  
-✅ **Aprendendo a Utilizar Dicionários em Python**  
-✅ **Explorando Conjuntos em Python**  
-
-Isso garante que você aprenda todas as principais estruturas de dados do Python para análise de dados! Vou revisar tudo e garantir que os nomes estejam **100% fiéis** aos cursos que você me enviou.  
-
-Vou te mandar agora o **roteiro definitivo** com os nomes exatos! 🚀
-
-Aqui está o **roteiro definitivo** com os **nomes exatos** dos cursos da DIO que você me enviou:  
-
----
-
 # 🚀 **Plano de Estudos para Analista de Dados Júnior**  
 
 ## **1️⃣ Fundamentos de Python (2-3 semanas)**  
