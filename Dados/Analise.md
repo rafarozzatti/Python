@@ -1,3 +1,7 @@
+Ótimo! Vou organizar o seu plano de estudos nesse formato. Segue o roteiro definitivo com os cursos da DIO que você me enviou:  
+
+---
+
 # 🚀 **Plano de Estudos para Analista de Dados Júnior**  
 
 ## **1️⃣ Fundamentos de Python (2-3 semanas)**  
@@ -29,7 +33,20 @@
 
 ---
 
-## **3️⃣ Banco de Dados Relacional (SQL) (2-3 semanas)**  
+## **3️⃣ Programação Orientada a Objetos (POO) com Python (2-3 semanas)**  
+> Aprenda a estruturar seu código de forma mais organizada e reutilizável.  
+
+✅ **Introdução à Programação Orientada a Objetos (POO) com Python**  
+✅ **Aprendendo o Conceito de Herança com Python**  
+✅ **Aplicando Encapsulamento em Python**  
+✅ **Conhecendo Polimorfismo em Python**  
+✅ **Interfaces e Classes Abstratas com Python**  
+
+💡 **Objetivo:** Escrever código modular e reutilizável com POO.  
+
+---
+
+## **4️⃣ Banco de Dados Relacional (SQL) (2-3 semanas)**  
 > Aqui, você aprenderá a manipular e consultar dados armazenados em bancos de dados.  
 
 ✅ **Introdução a Banco de Dados Relacionais (SQL)**  
@@ -44,7 +61,28 @@
 
 ---
 
-## **4️⃣ Manipulação e Análise de Dados com Python (3-4 semanas)**  
+## **5️⃣ Banco de Dados NoSQL (2 semanas)**  
+> Aqui, você aprenderá sobre bancos de dados não relacionais e sua aplicação.  
+
+✅ **Introdução a Banco de Dados NoSQL**  
+✅ **MongoDB - Trabalhando com Bancos não relacionais**  
+✅ **Introdução ao MongoDB e Bancos de Dados NoSQL**  
+
+💡 **Objetivo:** Entender como bancos NoSQL funcionam e quando utilizá-los.  
+
+---
+
+## **6️⃣ Integração de Python com Banco de Dados (2 semanas)**  
+> Conecte aplicações Python com bancos de dados relacionais e NoSQL.  
+
+✅ **Integrando Python com MongoDB Utilizando Pymongo**  
+✅ **Integrando Python com Banco de Dados Relacionais Utilizando SQLAlchemy**  
+
+💡 **Objetivo:** Saber conectar aplicações Python a diferentes bancos de dados.  
+
+---
+
+## **7️⃣ Manipulação e Análise de Dados com Python (3-4 semanas)**  
 > Agora é hora de aprender a trabalhar com dados usando bibliotecas especializadas.  
 
 ✅ **Conhecendo as Bibliotecas Pandas e Scikit-Learn**  
@@ -55,7 +93,18 @@
 
 ---
 
-## **5️⃣ Visualização de Dados (Opcional, mas valorizado no mercado)**  
+## **8️⃣ Desenvolvimento Web e APIs (Opcional, mas útil para o mercado) (2-3 semanas)**  
+> Aprenda a criar APIs e aplicações web para expor seus dados.  
+
+✅ **Desenvolvimento Web com Python e Django**  
+✅ **Desenvolvendo Rest APIs Com Python e Flask**  
+✅ **Aplicando o Estilo Arquitetural REST com Node.js**  
+
+💡 **Objetivo:** Criar APIs para expor dados e análises.  
+
+---
+
+## **9️⃣ Visualização de Dados (Opcional, mas valorizado no mercado)**  
 > Criando relatórios e dashboards para comunicar insights de dados.  
 
 ✅ **Power BI** (se disponível na DIO ou buscar outro curso)  
@@ -64,8 +113,8 @@
 
 ---
 
-# 📌 **Duração Total:** **8 a 12 semanas (2 a 3 meses)**  
-Se você estudar **2 horas por dia**, pode finalizar em **2 a 3 meses**.  
+# 📌 **Duração Total:** **10 a 16 semanas (2,5 a 4 meses)**  
+Se você estudar **2 horas por dia**, pode finalizar em **3 a 4 meses**.  
 
 ---
 
