@@ -1,8 +1,0 @@
-data_venda,nome_produto,categoria,cidade,quantidade,preco,valor_total
-2024-01-05,Arroz,Alimentos,São Paulo,2,25.0,50.0
-2024-01-15,Refrigerante,Bebidas,São Paulo,4,8.0,32.0
-2024-01-05,Carne,Açougue,Rio de Janeiro,1,45.0,45.0
-2024-02-01,Arroz,Alimentos,Rio de Janeiro,1,25.0,25.0
-2024-01-10,Feijão,Alimentos,Campinas,3,18.0,54.0
-2024-02-05,Carne,Açougue,Campinas,2,45.0,90.0
-2024-01-20,Leite,Bebidas,São Paulo,6,6.5,39.0
