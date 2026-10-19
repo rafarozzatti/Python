@@ -21,7 +21,9 @@ Tudo o que estiver entre aspas será exibido como texto.
 Você também pode imprimir números sem aspas:
 
 ```
-print(10)print(25.5)print(100 + 50)
+print(10)
+print(25.5)
+print(100 + 50)
 ```
 
 Saída:
@@ -39,7 +41,9 @@ Observe que, no último exemplo, o Python calculou `100 + 50` antes de mostrar o
 Você pode utilizar vários comandos `print()` no mesmo programa:
 
 ```
-print("Meu nome é Rafael.")print("Estou estudando Python.")print("Quero trabalhar com análise de dados.")
+print("Meu nome é Rafael.")
+print("Estou estudando Python.")
+print("Quero trabalhar com análise de dados.")
 ```
 
 Saída:
@@ -73,7 +77,8 @@ Os comentários servem para escrever observações no código. Eles ajudam você
 Para escrever um comentário de uma linha, utilizamos o símbolo `#`.
 
 ```
-# Este programa exibe uma mensagemprint("Estou aprendendo Python!")
+# Este programa exibe uma mensagem
+print("Estou aprendendo Python!")
 ```
 
 Saída:
@@ -99,7 +104,8 @@ Olá!
 Atenção: não confunda comentários com textos exibidos pelo programa.
 
 ```
-# Isto é um comentárioprint("Isto é uma mensagem")
+# Isto é um comentário
+print("Isto é uma mensagem")
 ```
 
 O primeiro não aparece na tela; o segundo aparece.
