@@ -1,5 +1,3 @@
-Vamos nessa! Vamos estudar Operadores aritméticos em Python, seguindo nosso método: explicação com exemplos e resultados, depois 10 exercícios em ordem crescente de dificuldade, corrigidos um por vez.
-
 # 6. Operadores aritméticos em Python
 
 Os operadores aritméticos permitem realizar cálculos no Python, como somar preços, calcular médias, dividir quantidades e calcular descontos.
