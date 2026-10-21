@@ -12,8 +12,8 @@ Aprender a escrever os primeiros programas.
 - Operadores aritméticos: `+`, `-`, `*`, `/`, `//`, `%`, `**`
 - Operadores de comparação: `==`, `!=`, `>`, `<`, `>=`, `<=`
 - Operadores lógicos: `and`, `or`, `not`
+- Operadores de Atribuição
 - Formatação de textos com f-strings
-- Precedência de operadores
 
 ## Etapa 2 — Condições e lógica de programação
 
