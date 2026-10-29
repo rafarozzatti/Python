@@ -53,38 +53,32 @@ Atenção: os comentários não devem aparecer na saída do programa.
 
 ## Exercício 5
 
-Escreva um programa que exiba exatamente estas quatro linhas:
+Escreva um programa Python que exiba exatamente esta saída:
 
 ```
-=== MEU PERFIL ===
-Nome: Rafael
-Área: Dados
-Meta: Aprender Python
+Python SQL Power BI
 ```
 
 Regras:
-
-- Utilize `print()` para exibir cada linha.
+- Utilize três comandos print().
+- Utilize end=' ' nos dois primeiros comandos.
+- O último comando deve utilizar o print() normal.
 - Inclua pelo menos dois comentários no código.
-- Nenhum comentário pode aparecer na saída.
+- Os comentários não podem aparecer na saída.
 
 ## Exercício 6
 
 Escreva um programa Python que exiba exatamente esta saída:
 
 ```
-CURSO DE PYTHON
-Duração: 40 horas
-Módulo: Fundamentos
-Status: Em andamento
+10-20-30-40
 ```
 
 Regras:
-
-- Utilize exatamente quatro comandos `print()`, um para cada linha.
+- Utilize quatro comandos print().
+- Utilize end='-' nos três primeiros comandos.
+- O último comando deve utilizar o print() normal.
 - Inclua pelo menos um comentário no código.
-- O comentário não pode aparecer na saída.
-- Não copie a saída como um único texto em um único `print()`.
 
 ## Exercício 7
 
@@ -110,23 +104,18 @@ Status: Concluído
 
 ## Exercício 8
 
-Escreva um programa que exiba exatamente esta saída:
+Escreva um programa Python que exiba exatamente esta saída:
 
 ```
-====================
-RELATÓRIO DE VENDAS
-====================
-Produto: Notebook
-Quantidade: 5 unidades
-Status: Finalizado
+12345
 ```
 
 Regras:
-
-- Utilize exatamente seis comandos `print()`.
+- Utilize cinco comandos print().
+- Utilize end='' nos quatro primeiros comandos.
+- O último comando deve utilizar o print() normal.
 - Inclua pelo menos dois comentários.
 - Os comentários não podem aparecer na saída.
-- Respeite as letras maiúsculas, os acentos e a ordem das linhas.
 
 ## Exercício 9
 

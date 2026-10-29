@@ -79,27 +79,24 @@ print('Meu primeiro programa') # exibe a 'frase Meu primeiro programa'
 
 ## Exercício 5
 
-Escreva um programa que exiba exatamente estas quatro linhas:
+Escreva um programa Python que exiba exatamente esta saída:
 
 ```
-=== MEU PERFIL ===
-Nome: Rafael
-Área: Dados
-Meta: Aprender Python
+Python SQL Power BI
 ```
 
 Regras:
-
-- Utilize `print()` para exibir cada linha.
+- Utilize três comandos print().
+- Utilize end=' ' nos dois primeiros comandos.
+- O último comando deve utilizar o print() normal.
 - Inclua pelo menos dois comentários no código.
-- Nenhum comentário pode aparecer na saída.
+- Os comentários não podem aparecer na saída.
 
 Resolução:
 ``` python
-print('=== MEU PERFIL ===') # titulo
-print('Nome: Rafael')
-print('Área: Dados') # Área desejada
-print('Meta: Aprender Python')
+print('Python', end=' ') # end=' ' para evitar a quebra de linha, acrescentando um espaço
+print('SQL', end=' ') # end=' ' para evitar a quebra de linha, acrescentando um espaço
+print('Power BI')
 ```
 
 ## Exercício 6
@@ -107,25 +104,21 @@ print('Meta: Aprender Python')
 Escreva um programa Python que exiba exatamente esta saída:
 
 ```
-CURSO DE PYTHON
-Duração: 40 horas
-Módulo: Fundamentos
-Status: Em andamento
+10-20-30-40
 ```
 
 Regras:
-
-- Utilize exatamente quatro comandos `print()`, um para cada linha.
+- Utilize quatro comandos print().
+- Utilize end='-' nos três primeiros comandos.
+- O último comando deve utilizar o print() normal.
 - Inclua pelo menos um comentário no código.
-- O comentário não pode aparecer na saída.
-- Não copie a saída como um único texto em um único `print()`.
 
 Resolução:
 ``` python
-print('CURSO DE PYTHON')
-print('Duração: 40 horas') # Duração do curso
-print('Módulo: Fundamentos')
-print('Status: Em andamento') # Status
+print(10, end='-') # end='-' para evitar a quebra de linha, acrescentando um hífen
+print(20, end='-')
+print(30, end='-')
+print(40)
 ```
 
 ## Exercício 7
@@ -159,32 +152,26 @@ print('Status: Concluído')
 
 ## Exercício 8
 
-Escreva um programa que exiba exatamente esta saída:
+Escreva um programa Python que exiba exatamente esta saída:
 
 ```
-====================
-RELATÓRIO DE VENDAS
-====================
-Produto: Notebook
-Quantidade: 5 unidades
-Status: Finalizado
+12345
 ```
 
 Regras:
-
-- Utilize exatamente seis comandos `print()`.
+- Utilize cinco comandos print().
+- Utilize end='' nos quatro primeiros comandos.
+- O último comando deve utilizar o print() normal.
 - Inclua pelo menos dois comentários.
 - Os comentários não podem aparecer na saída.
-- Respeite as letras maiúsculas, os acentos e a ordem das linhas.
 
 Resolução:
 ``` python
-print('====================')
-print('RELATÓRIO DE VENDAS')
-print('====================')
-print('Produto: Notebook') # Produto
-print('Quantidade: 5 unidades')
-print('Status: Finalizado') # Status
+print(1, end='') # end='' para evitar a quebra de linha, sem espaço entre cada print
+print(2, end='')
+print(3, end='')
+print(4, end='')
+print(5)
 ```
 
 ## Exercício 9
