@@ -253,7 +253,7 @@ Regras:
 
 [Resolução](3_Resolução_dos_Exercícios.md#exercício-9)
 
-### Exercício 10
+## Exercício 10
 
 Considere:
 
