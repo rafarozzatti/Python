@@ -11,7 +11,13 @@ Uma função pode receber uma lista como parâmetro, assim como recebia números
 Exemplo:
 
 ```
-def mostrar_numeros(numeros):    for numero in numeros:        print(numero)valores = [10, 20, 30, 40]mostrar_numeros(valores)
+def mostrar_numeros(numeros):    
+    for numero in numeros:        
+        print(numero)
+        
+valores = [10, 20, 30, 40]
+
+mostrar_numeros(valores)
 ```
 
 Saída:
@@ -36,7 +42,20 @@ Podemos criar funções para analisar os dados de uma lista.
 Exemplo:
 
 ```
-def analisar_vendas(vendas):    total = sum(vendas)    media = total / len(vendas)    maior_venda = max(vendas)    return total, media, maior_vendavalores = [100, 200, 300, 400]total, media, maior = analisar_vendas(valores)print(total)print(media)print(maior)
+def analisar_vendas(vendas):    
+    total = sum(vendas)    
+    media = total / len(vendas)    
+    maior_venda = max(vendas)    
+    
+    return total, media, maior_venda
+    
+valores = [100, 200, 300, 400]
+
+total, media, maior = analisar_vendas(valores)
+
+print(total)
+print(media)
+print(maior)
 ```
 
 Saída:
@@ -61,7 +80,14 @@ Também podemos modificar uma lista recebida como parâmetro.
 Exemplo:
 
 ```
-def adicionar_produto(produtos, produto):    produtos.append(produto)lista = ['Notebook', 'Mouse']adicionar_produto(lista, 'Teclado')print(lista)
+def adicionar_produto(produtos, produto):    
+    produtos.append(produto)
+    
+lista = ['Notebook', 'Mouse']
+
+adicionar_produto(lista, 'Teclado')
+
+print(lista)
 ```
 
 Saída:
@@ -83,7 +109,14 @@ O mesmo princípio funciona com dicionários.
 Exemplo:
 
 ```
-def mostrar_funcionario(funcionario):    print(f"Nome: {funcionario['nome']}")    print(f"Cargo: {funcionario['cargo']}")    print(f"Salário: R$ {funcionario['salario']}")dados = {    'nome': 'Rafael',    'cargo': 'Analista de Dados',    'salario': 3500}mostrar_funcionario(dados)
+def mostrar_funcionario(funcionario):    
+    print(f"Nome: {funcionario['nome']}")    
+    print(f"Cargo: {funcionario['cargo']}")    
+    print(f"Salário: R$ {funcionario['salario']}")
+    
+dados = {    'nome': 'Rafael',    'cargo': 'Analista de Dados',    'salario': 3500}
+
+mostrar_funcionario(dados)
 ```
 
 Saída:
@@ -103,7 +136,14 @@ Podemos adicionar ou modificar informações de um dicionário dentro de uma fun
 Exemplo:
 
 ```
-def atualizar_salario(funcionario, novo_salario):    funcionario['salario'] = novo_salariodados = {    'nome': 'Carlos',    'salario': 3000}atualizar_salario(dados, 4000)print(dados)
+def atualizar_salario(funcionario, novo_salario):    
+    funcionario['salario'] = novo_salario
+    
+dados = {    'nome': 'Carlos',    'salario': 3000}
+
+atualizar_salario(dados, 4000)
+
+print(dados)
 ```
 
 Saída:
@@ -121,7 +161,18 @@ Uma função também pode receber informações e devolver um dicionário.
 Exemplo:
 
 ```
-def criar_produto(nome, preco, estoque):    produto = {        'nome': nome,        'preco': preco,        'estoque': estoque    }    return produtoresultado = criar_produto('Monitor', 1200, 15)print(resultado)
+def criar_produto(nome, preco, estoque):    
+    produto = {        
+    'nome': nome,        
+    'preco': preco,        
+    'estoque': estoque    
+    }    
+    
+    return produto
+    
+resultado = criar_produto('Monitor', 1200, 15)
+
+print(resultado)
 ```
 
 Saída:
