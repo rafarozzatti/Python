@@ -1,5 +1,3 @@
-Vamos começar! Nosso próximo assunto é **Funções lambda**.
-
 # **1. O que são funções lambda?**
 
 Uma função `lambda` é uma forma mais curta de criar funções em Python.
