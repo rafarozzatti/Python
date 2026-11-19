@@ -5,7 +5,12 @@ Uma função `lambda` é uma forma mais curta de criar funções em Python.
 Até agora, utilizamos `def` para criar nossas funções:
 
 ```
-def somar(a, b):    return a + bresultado = somar(10, 5)print(resultado)
+def somar(a, b):    
+    return a + b
+
+resultado = somar(10, 5)
+
+print(resultado)
 ```
 
 Saída:
@@ -17,7 +22,11 @@ Saída:
 Com `lambda`, podemos escrever a mesma função em apenas uma linha:
 
 ```
-somar = lambda a, b: a + bresultado = somar(10, 5)print(resultado)
+somar = lambda a, b: a + b
+
+resultado = somar(10, 5)
+
+print(resultado)
 ```
 
 Saída:
@@ -44,7 +53,9 @@ lambda parametros: expressão
 Podemos criar uma função que recebe apenas um parâmetro:
 
 ```
-dobro = lambda numero: numero * 2print(dobro(5))
+dobro = lambda numero: numero * 2
+
+print(dobro(5))
 ```
 
 Saída:
@@ -64,7 +75,9 @@ Nesse exemplo:
 Também podemos receber dois ou mais parâmetros:
 
 ```
-multiplicar = lambda a, b: a * bprint(multiplicar(4, 3))
+multiplicar = lambda a, b: a * b
+
+print(multiplicar(4, 3))
 ```
 
 Saída:
@@ -82,7 +95,10 @@ Podemos utilizar `if` e `else` dentro de uma função lambda.
 Exemplo:
 
 ```
-verificar = lambda idade: 'Maior de idade' if idade >= 18 else 'Menor de idade'print(verificar(20))print(verificar(15))
+verificar = lambda idade: 'Maior de idade' if idade >= 18 else 'Menor de idade'
+
+print(verificar(20))
+print(verificar(15))
 ```
 
 Saída:
@@ -122,7 +138,9 @@ Não significa que lambda seja melhor. Cada uma tem sua utilidade.
 **Exemplo 1 — Calcular desconto:**
 
 ```
-desconto = lambda preco: preco * 0.10print(desconto(200))
+desconto = lambda preco: preco * 0.10
+
+print(desconto(200))
 ```
 
 Saída:
@@ -134,7 +152,9 @@ Saída:
 **Exemplo 2 — Converter temperatura:**
 
 ```
-celsius_para_fahrenheit = lambda c: (c * 9/5) + 32print(celsius_para_fahrenheit(30))
+celsius_para_fahrenheit = lambda c: (c * 9/5) + 32
+
+print(celsius_para_fahrenheit(30))
 ```
 
 Saída:
@@ -146,7 +166,9 @@ Saída:
 **Exemplo 3 — Verificar número positivo ou negativo:**
 
 ```
-verificar = lambda numero: 'Positivo' if numero >= 0 else 'Negativo'print(verificar(-5))
+verificar = lambda numero: 'Positivo' if numero >= 0 else 'Negativo'
+
+print(verificar(-5))
 ```
 
 Saída:
@@ -172,8 +194,3 @@ Principais características:
 - Retorna automaticamente o resultado da expressão.
 - Pode utilizar condições com `if` e `else`.
 - É indicada para operações simples.
-
-**Explicação concluída!**
-
-Agora vamos praticar com 10 exercícios, um por vez, como estamos fazendo.
-
