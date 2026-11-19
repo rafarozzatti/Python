@@ -9,7 +9,11 @@ Mas você sabia que uma função também pode devolver **mais de um valor ao mes
 Imagine uma função que recebe dois números e precisa devolver a soma e a multiplicação deles.
 
 ```
-def calcular(a, b):    soma = a + b    multiplicacao = a * b    return soma, multiplicacao
+def calcular(a, b):    
+    soma = a + b    
+    multiplicacao = a * b    
+    
+    return soma, multiplicacao
 ```
 
 Observe que utilizamos apenas um `return`, mas colocamos duas variáveis separadas por vírgula.
@@ -19,7 +23,10 @@ Observe que utilizamos apenas um `return`, mas colocamos duas variáveis separad
 Podemos receber os dois resultados em variáveis diferentes:
 
 ```
-resultado_soma, resultado_multiplicacao = calcular(10, 5)print(resultado_soma)print(resultado_multiplicacao)
+resultado_soma, resultado_multiplicacao = calcular(10, 5)
+
+print(resultado_soma)
+print(resultado_multiplicacao)
 ```
 
 Saída:
@@ -38,7 +45,13 @@ Quando retornamos vários valores separados por vírgula, o Python agrupa esses 
 Por exemplo:
 
 ```
-def calcular(a, b):    return a + b, a * bresultado = calcular(10, 5)print(resultado)print(type(resultado))
+def calcular(a, b):    
+    return a + b, a * b
+    
+resultado = calcular(10, 5)
+
+print(resultado)
+print(type(resultado))
 ```
 
 Saída:
@@ -55,7 +68,16 @@ Portanto, podemos receber os valores individualmente ou armazenar todos em uma �
 Imagine uma análise de vendas em que precisamos obter o total vendido e a quantidade de vendas.
 
 ```
-def analisar_vendas(vendas):    total = sum(vendas)    quantidade = len(vendas)    return total, quantidadetotal_vendido, quantidade_vendas = analisar_vendas([100, 200, 150, 50])print(f'Total vendido: R$ {total_vendido}')print(f'Quantidade de vendas: {quantidade_vendas}')
+def analisar_vendas(vendas):    
+    total = sum(vendas)    
+    quantidade = len(vendas)    
+    
+    return total, quantidade
+    
+total_vendido, quantidade_vendas = analisar_vendas([100, 200, 150, 50])
+
+print(f'Total vendido: R$ {total_vendido}')
+print(f'Quantidade de vendas: {quantidade_vendas}')
 ```
 
 Saída:
@@ -66,4 +88,3 @@ Quantidade de vendas: 4
 ```
 
 Aqui, a função devolve duas informações diferentes a partir de uma única lista.
-
