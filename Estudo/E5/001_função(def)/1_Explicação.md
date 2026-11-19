@@ -45,7 +45,12 @@ Podemos criar funções que recebem informações para trabalhar.
 Exemplo:
 
 ```
-def saudacao(nome):    print(f"Olá, {nome}!")saudacao("Carlos")saudacao("Mariana")saudacao("Pedro")
+def saudacao(nome):    
+    print(f"Olá, {nome}!")
+    
+saudacao("Carlos")
+saudacao("Mariana")
+saudacao("Pedro")
 ```
 
 Saída:
@@ -71,7 +76,11 @@ Nesse exemplo:
 Uma função também pode receber várias informações.
 
 ```
-def apresentar(nome, idade):    print(f"Nome: {nome}")    print(f"Idade: {idade}")apresentar("Rafael", 27)
+def apresentar(nome, idade):    
+    print(f"Nome: {nome}")    
+    print(f"Idade: {idade}")
+    
+apresentar("Rafael", 27)
 ```
 
 Saída:
@@ -96,7 +105,14 @@ Para isso, utilizamos `return`.
 Exemplo:
 
 ```
-def somar(a, b):    resultado = a + b    return resultadototal = somar(10, 20)print(total)
+def somar(a, b):    
+    resultado = a + b    
+    
+    return resultado
+    
+total = somar(10, 20)
+
+print(total)
 ```
 
 Saída:
@@ -127,7 +143,11 @@ Podemos definir um valor padrão para um parâmetro. Assim, se não enviarmos um
 Exemplo:
 
 ```
-def saudacao(nome="Visitante"):    print(f"Olá, {nome}!")saudacao()saudacao("Carlos")
+def saudacao(nome="Visitante"):    
+    print(f"Olá, {nome}!")
+    
+saudacao()
+saudacao("Carlos")
 ```
 
 Saída:
@@ -146,7 +166,11 @@ No segundo, o argumento `"Carlos"` substituiu o valor padrão.
 Também podemos informar o nome do parâmetro ao chamar uma função.
 
 ```
-def apresentar(nome, idade):    print(f"Nome: {nome}")    print(f"Idade: {idade}")apresentar(idade=25, nome="Mariana")
+def apresentar(nome, idade):    
+    print(f"Nome: {nome}")    
+    print(f"Idade: {idade}")
+    
+apresentar(idade=25, nome="Mariana")
 ```
 
 Saída:
@@ -165,7 +189,11 @@ Uma variável criada dentro de uma função é chamada de variável local. Ela e
 Exemplo:
 
 ```
-def calcular():    resultado = 10 + 20    print(resultado)calcular()
+def calcular():    
+    resultado = 10 + 20    
+    print(resultado)
+    
+calcular()
 ```
 
 Saída:
@@ -185,7 +213,12 @@ Quando uma função não possui um `return` explícito, o Python devolve automat
 Exemplo:
 
 ```
-def mostrar_mensagem():    print("Olá!")resultado = mostrar_mensagem()print(resultado)
+def mostrar_mensagem():    
+    print("Olá!")
+    
+resultado = mostrar_mensagem()
+
+print(resultado)
 ```
 
 Saída:
@@ -213,7 +246,11 @@ Isso acontece porque a função exibe a mensagem, mas não devolve nenhum result
 **Uma diferença que você precisa guardar:**
 
 ```
-# Exibe o resultadodef somar(a, b):    print(a + b)# Devolve o resultadodef somar(a, b):    return a + b
+# Exibe o resultado
+def somar(a, b):    
+    print(a + b)# Devolve o resultadodef 
+    somar(a, b):    
+        return a + b
 ```
 
 A segunda versão permite armazenar o resultado, utilizá-lo em cálculos e passá-lo para outras funções.
