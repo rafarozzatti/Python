@@ -1,8 +1,4 @@
-Vamos para o **Assunto 4 — Organização de projetos**.
-
-O objetivo é aprender a organizar programas Python em diferentes arquivos e pastas, deixando o código mais organizado, reutilizável e fácil de manter.
-
-# **1. Organização de arquivos e pastas**
+# ** Organização de arquivos e pastas**
 
 Até agora, trabalhamos principalmente com programas em um único arquivo `.py`.
 
