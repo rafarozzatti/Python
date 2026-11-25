@@ -9,7 +9,7 @@ Crie um programa que:
 3. Utilize `if` para verificar se a idade é maior ou igual a `18`.
 4. Exiba `"Maior de idade"` caso a condição seja verdadeira.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-1)
 
 ## **Exercício 2**
 
@@ -19,7 +19,7 @@ Crie um programa que:
 2. Utilize `if` para verificar se o número é positivo.
 3. Exiba `"Número positivo"` caso a condição seja verdadeira.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-2)
 
 ## **Exercício 3**
 
@@ -30,7 +30,7 @@ Crie um programa que:
 3. Utilize `else` para tratar o caso contrário.
 4. Exiba `"Maior de idade"` ou `"Menor de idade"`, conforme o resultado.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-3)
 
 ## **Exercício 4**
 
@@ -41,7 +41,7 @@ Crie um programa que:
 3. Utilize `else` para tratar o caso contrário.
 4. Exiba `"Número par"` ou `"Número ímpar"`.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-4)
 
 ## **Exercício 5**
 
@@ -52,7 +52,7 @@ Crie um programa que:
 3. Utilize `else` para tratar o caso contrário.
 4. Exiba `"Aprovado"` ou `"Reprovado"`.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-5)
 
 ## **Exercício 6**
 
@@ -64,7 +64,7 @@ Crie um programa que:
 4. Utilize `else` para tratar as demais idades.
 5. Exiba `"Criança"`, `"Adolescente"` ou `"Adulto"`.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-6)
 
 ## **Exercício 7**
 
@@ -77,7 +77,7 @@ Crie um programa que:
 5. Utilize `else` para tratar as demais notas.
 6. Exiba `"Excelente"`, `"Bom"`, `"Em recuperação"` ou `"Reprovado"`.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-7)
 
 ## **Exercício 8**
 
@@ -87,7 +87,7 @@ Crie um programa que:
 2. Utilize `if`, `elif` e `else` para verificar se o número é positivo, negativo ou zero.
 3. Exiba a classificação correspondente.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-8)
 
 ## **Exercício 9**
 
@@ -99,7 +99,7 @@ Crie um programa que:
 4. Utilize `else` para tratar os demais preços.
 5. Exiba `"Produto caro"`, `"Preço intermediário"` ou `"Produto barato"`.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-9)
 
 ## **Exercício 10**
 
@@ -114,4 +114,4 @@ Crie um programa que:
 5. Utilize `else` para tratar as demais idades.
 6. Exiba `"Criança"`, `"Adolescente"`, `"Adulto"` ou `"Idoso"`.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-10)
