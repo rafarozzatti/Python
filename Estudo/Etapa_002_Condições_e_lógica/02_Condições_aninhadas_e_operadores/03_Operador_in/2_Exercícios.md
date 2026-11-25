@@ -6,7 +6,7 @@
 2. Verifique se a letra `'a'` está presente no nome utilizando `in`.
 3. Exiba uma mensagem indicando se a letra foi encontrada.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-1)
 
 ## **Exercício 2**
 
@@ -14,7 +14,7 @@ Resolução
 2. Verifique se a palavra `'Python'` está presente na frase.
 3. Exiba se a palavra foi encontrada ou não.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-2)
 
 ## **Exercício 3**
 
@@ -22,7 +22,7 @@ Resolução
 2. Verifique se `'banana'` está presente na lista utilizando `in`.
 3. Exiba uma mensagem indicando se a fruta foi encontrada.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-3)
 
 ## **Exercício 4**
 
@@ -30,7 +30,7 @@ Resolução
 2. Verifique se o número `25` está presente na lista.
 3. Exiba se o número foi encontrado ou não.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-4)
 
 ## **Exercício 5**
 
@@ -38,7 +38,7 @@ Resolução
 2. Verifique se `'amarelo'` não está presente na lista utilizando `not in`.
 3. Exiba uma mensagem indicando que a cor não foi encontrada.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-5)
 
 ## **Exercício 6**
 
@@ -46,7 +46,7 @@ Resolução
 2. Verifique se a letra `'z'` não está presente no nome.
 3. Exiba uma mensagem indicando que a letra não foi encontrada.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-6)
 
 ## **Exercício 7**
 
@@ -56,7 +56,7 @@ Resolução
 4. Dentro dessa condição, verifique se o setor está presente na lista utilizando `in`.
 5. Exiba se o acesso está permitido ou negado.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-7)
 
 ## **Exercício 8**
 
@@ -66,7 +66,7 @@ Resolução
 4. Dentro dessa condição, verifique se a categoria está presente na lista.
 5. Exiba se a pessoa tem direito ao desconto.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-8)
 
 ## **Exercício 9**
 
@@ -76,7 +76,7 @@ Resolução
 4. Dentro dessa condição, utilize `not in` para verificar se o usuário não está na lista de bloqueados.
 5. Exiba se o acesso está permitido ou negado.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-9)
 
 ## **Exercício 10**
 
@@ -86,4 +86,4 @@ Resolução
 4. Dentro dessa condição, verifique se o cargo está presente na lista.
 5. Exiba se a pessoa atende aos critérios de acesso.
 
-Resolução
+[Resolução](3_Resolução_dos_Exercícios.md#exercício-10)
